@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+    <Script>
+        console.log("internal script head");
+    </Script>
+    <script src="script.js"></script>
+    <script src="helloword.js"></script>
+</head> 
+<body>
+    <button onclick="console.log('click') ,alert('alert')"> </button>
+    <Script>
+        console.log("internal script body");
+    </Script>
+    <script src="script.js"></script>
+    <script src="helloword.js"></script>
+</body>
+</html>
